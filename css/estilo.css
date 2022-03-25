@@ -29,4 +29,7 @@ h1{
 
 p{
     font-size: 1.4em;
+    color:#000000;
+    text-align: justify;
+    text-indent: 40px;
 }
