@@ -1,5 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color:#ffffff;
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%1;
+}
+
+.menu{
+background-color: aqua;
+padding: 1.5%;
+}
+
+.itens_menu{
+line-height: 1.5;
+text-align: center;
 }
 
 .fundo_diferente{
@@ -7,12 +26,12 @@ body{
 }
 
 .img_topo{
-    width: 100%;
+    width: 45%;
 
 }
 
 .img_corpo{
-    width: 50%;
+    width: 30%;
     
 }
 
