@@ -11,15 +11,47 @@ body{
     padding-bottom: 1%1;
 }
 
-.menu{
-background-color: aqua;
-padding: 1.5%;
+.menu, footer{
+    background-color: rgba(59, 239, 245, 0.3);
+    /* rgba(199, 21, 133, 0.2);  */  
+    /* rgba(143, 188, 143, 0.2); */
+    /* rgba(128, 128, 128, 0.4); */
+    padding: 1.5%;
 }
 
 .itens_menu{
 line-height: 1.5;
 text-align: center;
 }
+
+.itens_menu a{
+    font-size: 1.2em;
+}
+
+.itens_menu a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.itens_menu a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+    color: #fff;
+    padding: 0.8%;
+    background-color: rgba(128, 128, 128, 0.3);
+    text-decoration: none;
+    border-radius: 15%;
+}
+
+.itens_menu a:active{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
 
 .fundo_diferente{
     background-image: linear-gradient(to right, #ffffff , rgb(252, 41, 41));
@@ -40,14 +72,41 @@ figure{
 }
 
 .container{
-
     width: 80%;
     margin: auto;
+}
+
+mais> a{
+    /* unvisited link */
+    a:link {
+        color: red;
+      }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 }
 
 h1{
     text-align: center;
     color: #00BFFF;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 1.5em;
 }
 
 p{
@@ -57,8 +116,9 @@ p{
     text-indent: 40px;
 }
 
-.parag_titulos p{
+.parag_titulos > p{
     font-size: 1em;
+    line-height: 1.5;
 }
 
 .pinta_botao{
@@ -70,4 +130,9 @@ p{
 
 .botao{
     padding-top: 15px;
+}
+
+footer > p{
+    font-size: 1.2em;
+    text-align: center;
 }
