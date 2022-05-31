@@ -51,6 +51,17 @@ text-align: center;
     text-decoration: none;
 }
 
+section a:link{
+    color:#00BFFF
+}
+
+section a:visited{
+    color:#ff0000;
+}
+
+section a:hover{
+    color:rgb(255, 145, 0)
+}
 
 
 .fundo_diferente{
