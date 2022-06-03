@@ -12,7 +12,7 @@ body{
 }
 
 .menu, footer{
-    background-color: rgba(59, 239, 245, 0.3);
+    background-color: blue;
     /* rgba(199, 21, 133, 0.2);  */  
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
@@ -41,7 +41,7 @@ text-align: center;
 .itens_menu a:hover{
     color: #fff;
     padding: 0.8%;
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(255, 251, 0, 0.1);
     text-decoration: none;
     border-radius: 15%;
 }
@@ -65,7 +65,7 @@ section a:hover{
 
 
 .fundo_diferente{
-    background-image: linear-gradient(to right, #ffffff , rgb(252, 41, 41));
+    background-color: white;
 }
 
 .img_topo{
@@ -91,6 +91,7 @@ figure{
 h1{
     text-align: center;
     color: #00BFFF;
+    font-size: 2em;;
 }
 
 h2{
@@ -104,6 +105,7 @@ p{
     color:#000000;
     text-align: justify;
     text-indent: 40px;
+    line-height: 1.5;
 }
 
 .parag_titulos > p{
@@ -125,4 +127,20 @@ p{
 footer > p{
     font-size: 1.2em;
     text-align: center;
+}
+
+.escondido{
+    display: none;
+}
+
+.direita{
+    float: right;
+    width: 20%;
+    margin: 1.5%;
+}
+
+.esquerda{
+    float: left;
+    width: 20%;
+    margin: 1.5%;   
 }
