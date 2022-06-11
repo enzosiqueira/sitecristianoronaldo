@@ -19,7 +19,7 @@ body{
 }
 
 .menu, footer{
-    background-color: blue;
+    background-color: rgb(0, 140, 255);
     /* rgba(199, 21, 133, 0.2);  */  
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
@@ -63,11 +63,11 @@ section a:link{
 }
 
 section a:visited{
-    color:#ff0000;
+    color:#00ff2a;
 }
 
 section a:hover{
-    color:rgb(255, 145, 0)
+    color:rgb(255, 0, 0)
 }
 
 
@@ -98,7 +98,7 @@ figure{
 
 h1{
     text-align: center;
-    color: #00BFFF;
+    color: #005fb8;
     font-size: 2em;
     line-height: 2.5;
 }
@@ -126,7 +126,7 @@ p{
 .pinta_botao{
     width: 150px;
     height: 40px;
-    background-color: rgb(238, 255, 0);
+    background-color: rgb(0, 140, 255);
     margin: auto;
     padding: 0.2%;
     text-align: center;
@@ -134,7 +134,7 @@ p{
 }
 
 .pinta_botao:hover{
-    background-color: rgb(255, 2, 2)
+    background-color: #005fb8;
 }
 
 .pinta_botao a:link, .pinta_botao:visited{
