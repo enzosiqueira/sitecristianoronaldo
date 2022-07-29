@@ -1,3 +1,9 @@
+@font-face {
+    font-family: AppleGaramond-Bold ;
+    
+    src: url('../fonts/AppleGaramond-Bold.ttf')
+  }
+
 html{
     scroll-behavior: smooth;
 }
@@ -24,6 +30,7 @@ body{
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
     padding: 1.5%;
+    font-family: 'Roboto', cursive;
 }
 
 .itens_menu{
@@ -101,6 +108,7 @@ h1{
     color: #005fb8;
     font-size: 2em;
     line-height: 2.5;
+    font-family: 'Roboto', cursive;
 }
 
 h2{
@@ -108,6 +116,7 @@ h2{
     color: #000000;
     font-size: 1.5em;
     margin-bottom: 2%;
+    font-family: 'Roboto', cursive;
 }
 
 p{
@@ -116,6 +125,7 @@ p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
+    font-family: 'AppleGaramond-Bold', cursive;
 }
 
 .parag_titulos > p{
