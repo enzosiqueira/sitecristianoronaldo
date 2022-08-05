@@ -1,7 +1,7 @@
 @font-face {
-    font-family: AppleGaramond-Bold ;
+    font-family: arial ;
     
-    src: url('../fonts/AppleGaramond-Bold.ttf')
+    src: url('../fonts/arial.ttf')
   }
 
 html{
@@ -30,7 +30,7 @@ body{
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
     padding: 1.5%;
-    font-family: 'Roboto', cursive;
+    font-family: 'Merienda One', cursive;
 }
 
 .itens_menu{
@@ -108,7 +108,7 @@ h1{
     color: #005fb8;
     font-size: 2em;
     line-height: 2.5;
-    font-family: 'Roboto', cursive;
+    font-family: 'Merienda One', cursive;
 }
 
 h2{
@@ -116,7 +116,7 @@ h2{
     color: #000000;
     font-size: 1.5em;
     margin-bottom: 2%;
-    font-family: 'Roboto', cursive;
+    font-family: 'Merienda One', cursive;
 }
 
 p{
@@ -125,7 +125,7 @@ p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
-    font-family: 'AppleGaramond-Bold', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 .parag_titulos > p{
@@ -157,6 +157,9 @@ footer > p{
     font-size: 1.2em;
     text-align: center;
     color: #FFF;
+    font-family: 'Merienda One', cursive;
+    
+
 }
 
 section{
@@ -184,15 +187,38 @@ table{
     border-collapse: collapse;
     width: 100%;
     margin-top: 2%;
+    font-family: 'Merienda One',cursive;
+  }
+
+  audio{
+    width: 70%;
   }
   
-  td{
-    font
+  th{
+    font-size: 1.5em ;
+    font-weight: bolder;
   }
   
   td,th{
-    border: 5px inset #8B0000;
+    border: 5px inset #0058ca;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
   }
+
+  tr:nth-child(even) {
+    background-color: rgba(0, 225, 255, 0.637);
+  }
+
+  td:first-child{
+    width: 40%;
+  }
+  
+  td:first-child + td{
+    width: 60%;
+  }
+  
+  audio::-webkit-media-controls-panel{
+    background-color:rgb(238, 255, 0) !important;
+    }
+  
