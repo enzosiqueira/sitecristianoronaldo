@@ -232,6 +232,7 @@ audio::-webkit-media-controls-panel{
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    font-family: 'Merienda One', cursive;
 }
     
 input[type=text], select, textarea, input[type=tel], input[type=email] {
@@ -240,6 +241,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     border: 1px solid #ccc;
     border-radius: 15px;
     resize: vertical;
+    font-family: 'Merienda One', cursive;
 }
      
     
@@ -254,5 +256,43 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
     float: left;
     margin-top: 6px;
 }
-    
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=submit] {
+    background-color: #005fb8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    font-weight: bolder;
+   
+}
   
+.botaoform{
+    margin-top: 3%;
+}
+  
+  
+@media screen and (max-width:450px) {
+
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+     
+    }
+  
+   
+  
+    
+  }
