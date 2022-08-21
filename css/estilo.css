@@ -24,11 +24,17 @@ body{
 
 }
 
-.menu, footer{
+.menu{
     background-color: goldenrod;
     /* rgba(199, 21, 133, 0.2);  */  
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
+    padding: 0.7%;
+    font-family: 'Merienda One', cursive;
+}
+
+footer{
+    background-color: goldenrod;
     padding: 1.5%;
     font-family: 'Merienda One', cursive;
 }
@@ -91,7 +97,7 @@ section a:hover{
 }
 
 .img_topo{
-    width: 45%;
+    width: 100%;
 
 }
 
@@ -144,11 +150,12 @@ p{
 .pinta_botao{
     width: 150px;
     height: 40px;
-    background-color: goldenrod;
+    background-color: rgb(218, 165, 32);
     margin: auto;
     padding: 0.2%;
     text-align: center;
     padding-top: 3%;
+    border-radius: 4px;
 }
 
 .pinta_botao:hover{
@@ -215,7 +222,7 @@ td,th{
 }
 
 tr:nth-child(even) {
-    background-color: rgba(0, 225, 255, 0.637);
+    background-color: #FFF;
 }
 
 td:first-child{
@@ -273,7 +280,7 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 
 input[type=submit] {
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: #FFF;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
