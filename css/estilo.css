@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color:#ffffff;
+    background-color:#000000;
 }
 
 .logo{
@@ -25,11 +25,19 @@ body{
 }
 
 .menu, footer{
-    background-color: rgb(0, 140, 255);
+    background-color: goldenrod;
     /* rgba(199, 21, 133, 0.2);  */  
     /* rgba(143, 188, 143, 0.2); */
     /* rgba(128, 128, 128, 0.4); */
     padding: 1.5%;
+    font-family: 'Merienda One', cursive;
+}
+
+.titulo_topo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    line-height: 2.5;
     font-family: 'Merienda One', cursive;
 }
 
@@ -55,7 +63,7 @@ text-align: center;
 .itens_menu a:hover{
     color: #fff;
     padding: 0.8%;
-    background-color: rgba(255, 251, 0, 0.1);
+    background-color: rgba(0, 0, 0,);
     text-decoration: none;
     border-radius: 15%;
 }
@@ -66,15 +74,15 @@ text-align: center;
 }
 
 section a:link{
-    color:#00BFFF
+    color:#ff00bb
 }
 
 section a:visited{
-    color:#00ff2a;
+    color:#ffffff;
 }
 
 section a:hover{
-    color:rgb(255, 0, 0)
+    color:rgb(0, 0, 0);
 }
 
 
@@ -105,7 +113,7 @@ figure{
 
 h1{
     text-align: center;
-    color: #005fb8;
+    color: goldenrod;
     font-size: 2em;
     line-height: 2.5;
     font-family: 'Merienda One', cursive;
@@ -121,22 +129,22 @@ h2{
 
 p{
     font-size: 1.4em;
-    color:#000000;
+    color:#ffffff;
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
     font-family: 'Comfortaa', cursive;
 }
 
-.parag_titulos > p{
+/*.parag_titulos > p{
     font-size: 1em;
     line-height: 1.5;
-}
+}*/
 
 .pinta_botao{
     width: 150px;
     height: 40px;
-    background-color: rgb(0, 140, 255);
+    background-color: goldenrod;
     margin: auto;
     padding: 0.2%;
     text-align: center;
@@ -144,7 +152,7 @@ p{
 }
 
 .pinta_botao:hover{
-    background-color: #005fb8;
+    background-color: #ffbc21;
 }
 
 .pinta_botao a:link, .pinta_botao:visited{
@@ -171,13 +179,13 @@ section{
     display: none;
 }
 
-.direita{
+.imagem_direita{
     float: right;
     width: 20%;
     margin-left: 2%;
 }
 
-.esquerda{
+.imagem_esquerda{
     float: left;
     width: 30%;
     margin-right: 2%;
@@ -200,7 +208,7 @@ th{
 }
   
 td,th{
-    border: 5px inset #0058ca;
+    border: 5px inset goldenrod;
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
@@ -219,11 +227,11 @@ td:first-child + td{
 }
   
 audio::-webkit-media-controls-panel{
-    background-color:rgb(238, 255, 0) !important;
+    background-color:goldenrod !important;
 }
 
 .borda_form{
-    background-color: rgb(0, 140, 255);
+    background-color: goldenrod;
     padding: 20px;
     border-radius: 25px;
     margin-top: 1%;
@@ -264,8 +272,8 @@ input[type=text], select, textarea, input[type=tel], input[type=email] {
 }
 
 input[type=submit] {
-    background-color: #005fb8;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
